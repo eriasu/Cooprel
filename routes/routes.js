@@ -21,6 +21,11 @@ module.exports = function(app,passport){
            user:req.user
        }) ;
     });
+    app.post('/login',passport.authenticate('local-login',{
+        successRedirect:'/Mapa',
+        failureRedirect:'/login',
+        failureFlash:true
+    }));
 };
 function isLoggedIn(req,res,next){
     if(req.isAuthenticated())
