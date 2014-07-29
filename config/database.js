@@ -4,5 +4,5 @@
 
 
 module.exports ={
-  'url':'mongodb://user:pass@ds059519.mongolab.com:59519/cooprel'
+  'url':'mongodb://eriasu:paneki1988@ds059519.mongolab.com:59519/cooprel'
 };
