@@ -3,24 +3,38 @@
 <html>
 <head>
     <title>SCADA COOPREL</title>
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css"> <!-- load bootstrap css -->
+    <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css"> <!-- load fontawesome -->
-    <link type="text/css" rel="stylesheet" href="/stylesheets/jquery.qtip.css/" >
+
+
+
     <style>
         body 		{ padding-top:80px; }
     </style>
+
 </head>
 <body>
 
-<script type="text/javascript" src="/javascripts/jquery-2.0.3.min.js" ></script>
-<script type="text/javascript" src="/javascripts/jquery.qtip.js"></script>
-<script type="text/javascript" src="/javascripts/imagesloaded.pkg.min.js"></script>
 
+
+<script type="text/javascript" src="/javascripts/jquery-2.1.1.js"></script>
+
+<!-- Include either the minifed or production version, NOT both!! -->
+<script src="/javascripts/bootstrap.js"></script>
+<script>
+$(function () { $("[data-toggle='tooltip']").tooltip(); });
+$(function () { $("[data-toggle='popover']").popover(); });
+
+</script>
 <div class="container">
-<div class="page-header text-center">
-    <h1><span class="fa fa-anchor"></span>Mapa de Lineas</h1>
-    <a href="/logout" class="btn btn-default btn-sm">Cerrar Sesion</a>
-</div>
+    <div class="page-header text-center">
+        <h1><span class="fa fa-anchor"></span>Mapa de Lineas</h1>
+        <a title="Hola" href="/logout" class="btn btn-default btn-sm">Cerrar Sesion</a>
+        <button type="button" class="btn btn-default" data-toggle="tooltip" data-placement="top" title="Tooltip on top">Tooltip on top</button>
+        <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+
+    </div>
     <img src="/images/CAD.svg" >
 
 </div>
