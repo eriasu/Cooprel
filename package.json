@@ -30,5 +30,10 @@
   "bugs": {
     "url": "https://github.com/eriasu/Cooprel/issues"
   },
-  "homepage": "https://github.com/eriasu/Cooprel"
+  "homepage": "https://github.com/eriasu/Cooprel",
+
+"engines": {
+"node": "0.10.x"
+}
+
 }
