@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5d3b9cb-0c5b-47c2-b49e-da00c8c58f9d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/images/CAD.svg" afterPath="$PROJECT_DIR$/public/images/CAD.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/Mapa.ejs" afterPath="$PROJECT_DIR$/views/Mapa.ejs" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -47,23 +46,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Mapa.ejs" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Mapa.ejs" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/Mapa.ejs">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.076923" vertical-offset="367" max-vertical-offset="816">
-              <caret line="37" column="62" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
+            <state vertical-scroll-proportion="0.7349666" vertical-offset="350" max-vertical-offset="833">
+              <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
               <folding>
-                <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CAD.svg" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CAD.svg" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/images/CAD.svg">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.037777778" vertical-offset="51" max-vertical-offset="479247">
-              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+            <state vertical-scroll-proportion="19149.16" vertical-offset="478797" max-vertical-offset="479247">
+              <caret line="4" column="27" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -135,14 +134,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="527">
               <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="7" />
-              <folding>
-                <marker date="1406623939992" expanded="true" signature="46:724" placeholder="..." />
-                <marker date="1406623939992" expanded="true" signature="53:414" placeholder="..." />
-                <marker date="1406623939992" expanded="true" signature="356:406" placeholder="..." />
-                <marker date="1406623939992" expanded="true" signature="421:716" placeholder="..." />
-                <marker date="1406623939992" expanded="true" signature="445:708" placeholder="..." />
-                <marker date="1406623939992" expanded="true" signature="486:700" placeholder="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,8 +163,8 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/config/database.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/views/Mapa.ejs" />
         <option value="$PROJECT_DIR$/public/images/CAD.svg" />
+        <option value="$PROJECT_DIR$/views/Mapa.ejs" />
       </list>
     </option>
   </component>
@@ -446,7 +438,11 @@
       <created>1406661988957</created>
       <updated>1406661988957</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Cambio Mapa">
+      <created>1406662893613</created>
+      <updated>1406662893613</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -511,7 +507,8 @@
     <MESSAGE value="Procfile" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="cambios" />
-    <option name="LAST_COMMIT_MESSAGE" value="cambios" />
+    <MESSAGE value="Cambio Mapa" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cambio Mapa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -538,7 +535,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="306">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -571,14 +568,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="527">
           <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="24" />
-          <folding>
-            <marker date="1406623939992" expanded="true" signature="46:724" placeholder="..." />
-            <marker date="1406623939992" expanded="true" signature="53:414" placeholder="..." />
-            <marker date="1406623939992" expanded="true" signature="356:406" placeholder="..." />
-            <marker date="1406623939992" expanded="true" signature="421:716" placeholder="..." />
-            <marker date="1406623939992" expanded="true" signature="445:708" placeholder="..." />
-            <marker date="1406623939992" expanded="true" signature="486:700" placeholder="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -701,21 +691,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.ejs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="527">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="7" />
-          <folding>
-            <marker date="1406623939992" expanded="true" signature="46:724" placeholder="..." />
-            <marker date="1406623939992" expanded="true" signature="53:414" placeholder="..." />
-            <marker date="1406623939992" expanded="true" signature="356:406" placeholder="..." />
-            <marker date="1406623939992" expanded="true" signature="421:716" placeholder="..." />
-            <marker date="1406623939992" expanded="true" signature="445:708" placeholder="..." />
-            <marker date="1406623939992" expanded="true" signature="486:700" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="118" max-vertical-offset="1207">
@@ -740,21 +715,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/Mapa.ejs">
+    <entry file="file://$PROJECT_DIR$/public/images/CAD.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-10.076923" vertical-offset="367" max-vertical-offset="816">
-          <caret line="37" column="62" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="19149.16" vertical-offset="478797" max-vertical-offset="479247">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/images/CAD.svg">
+    <entry file="file://$PROJECT_DIR$/views/index.ejs">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.037777778" vertical-offset="51" max-vertical-offset="479247">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="527">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="25" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/Mapa.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7349666" vertical-offset="350" max-vertical-offset="833">
+          <caret line="40" column="0" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
