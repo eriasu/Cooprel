@@ -13,5 +13,22 @@
     "body-parser": "~1.0.0",
     "debug": "~0.7.4",
     "ejs": "~0.8.5"
-  }
+  },
+  "description": "Aplicacion Web para Vision de datos SCADA",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eriasu/Cooprel.git"
+  },
+  "keywords": [
+    "Cooprel",
+    "SCADA"
+  ],
+  "author": "Elias Tardon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eriasu/Cooprel/issues"
+  },
+  "homepage": "https://github.com/eriasu/Cooprel"
 }
