@@ -12,10 +12,10 @@ module.exports = function(app,passport){
        req.logout();
         res.redirect('/')
     });
-    app.get('/signup',function(req,res){
-       res.render('signup.ejs',{message:req.flash('signupMessage')});
-    });
-    app.post('/signup',passport.authenticate('local-signup',{successRedirect:'/Mapa',failureRedirect:'/signup',faulreFlash:true}));
+    //app.get('/signup',function(req,res){
+      // res.render('signup.ejs',{message:req.flash('signupMessage')});
+    //});
+   // app.post('/signup',passport.authenticate('local-signup',{successRedirect:'/Mapa',failureRedirect:'/signup',faulreFlash:true}));
     app.get('/Mapa',isLoggedIn,function(req,res){
        res.render('Mapa.ejs',{
            user:req.user
