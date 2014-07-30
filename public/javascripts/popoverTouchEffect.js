@@ -1,2 +1,1 @@
-$('#popoverData').popover();
-$('#popoverOption').popover({ trigger: "hover" });
+$('#reconectador').popover();
