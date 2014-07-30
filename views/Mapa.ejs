@@ -26,11 +26,12 @@
 
 <!-- Include either the minifed or production version, NOT both!! -->
 <script src="/javascripts/bootstrap.js"></script>
-<script>
+<script type="text/javascript">
 $(function () { $("[data-toggle='tooltip']").tooltip(); });
 $(function () { $("[data-toggle='popover']").popover(); });
 
 </script>
+
 <div class="container">
     <div class="page-header text-center">
         <h1><span class="fa fa-anchor"></span>Mapa Geografico</h1>
@@ -49,11 +50,12 @@ $(function () { $("[data-toggle='popover']").popover(); });
         <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
     -->
 </div>
+
 <div class="container-fluid" style="height: auto">
     <div id="containerC">
 <img src="/images/CAD_cleaned.svg" style="width: 100%;height: auto;"/>
 
-<img  id="reconectador" src="/images/5.png" style="position:absolute ;width: 3%;height: auto;max-width: 3%;min-width: 3%" />
+<input type="image" id="reconectador" src="/images/5.png" style="position:absolute ;width: 3%;height: auto;max-width: 3%;min-width: 3%" data-toggle="popover" title="" data-content="And here's some amazing content. It's very engaging. right?" data-original-title="A Title"/>
 
     </div>
 </div>
